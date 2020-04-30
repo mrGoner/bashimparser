@@ -149,7 +149,7 @@ namespace BashImParser
             }
             catch (Exception _ex)
             {
-                throw new BashException($"Exception occured in {nameof(GetTopQuotesAbyssAsync)}", _ex);
+                throw new BashException($"Exception occured in {nameof(GetBestQuotesAbyssAsync)}", _ex);
             }
         }
     }

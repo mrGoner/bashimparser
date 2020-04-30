@@ -6,11 +6,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BashImParser\BashImParser.csproj" />
-  </ItemGroup>
-  <ItemGroup>
     <Reference Include="BashImParser">
       <HintPath>..\BashImParser\bin\Debug\netcoreapp3.1\BashImParser.dll</HintPath>
     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BashImParser\BashImParser.csproj" />
   </ItemGroup>
 </Project>
